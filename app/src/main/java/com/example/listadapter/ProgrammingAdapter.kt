@@ -9,7 +9,6 @@ import androidx.recyclerview.widget.RecyclerView
 
 class ProgrammingAdapter : androidx.recyclerview.widget.ListAdapter<ProgrammingItem, ProgrammingAdapter.ViewModel> (DiffUtil()){
 
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewModel {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.list_view, parent, false)
         return ViewModel(view)

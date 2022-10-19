@@ -5,20 +5,21 @@
     android:layout_height="wrap_content">
 
     <TextView
-        android:layout_width="62dp"
+        android:layout_width="100dp"
         android:text="Java"
+        android:width="1dp"
         android:id="@+id/name"
         android:textColor="@color/black"
         android:textSize="24dp"
-        android:gravity="center"
-        android:layout_height="63dp"/>
+        android:layout_height="match_parent"/>
 
     <TextView
-        android:layout_width="62dp"
+        android:layout_width="100dp"
         android:text="Java"
+        android:width="3dp"
         android:id="@+id/idO"
         android:textColor="@color/black"
         android:textSize="24dp"
-        android:layout_height="63dp"/>
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
